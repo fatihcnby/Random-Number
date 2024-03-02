@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Madimi One", sans-serif;
+  background-image: url(/public/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: rgb(235, 224, 224);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 5px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.randomNum {
+  padding-bottom: 20px;
+}
+
+.numContainer {
+  padding: 10px;
+}
+
+input {
+  border-radius: 20px;
+  padding: 10px;
+}
+
+button {
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 30px;
+  font-family: "Madimi One", sans-serif;
+  border: none;
+}
+
+button:hover {
+  background-color: rgb(22, 26, 26);
+  color: azure;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
